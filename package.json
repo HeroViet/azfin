@@ -1,4 +1,7 @@
 {
+  "homepage": "https://heroviet.github.io/azfin-ui/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   "name": "azfin-ui",
   "version": "0.1.0",
   "private": true,
